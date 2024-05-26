@@ -1,0 +1,46 @@
+/* Styles for the banner section */
+.banner-section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Styles for the banner image */
+.banner-section img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+/* Styles for the banner text */
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styles for the banner text content */
+.banner-text-content {
+  margin-bottom: 20px;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.banner-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

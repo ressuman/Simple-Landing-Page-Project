@@ -1,0 +1,40 @@
+.about-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-header h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  padding: 0 20px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
